@@ -1,0 +1,71 @@
+body {
+    background-color: #c6e5b131;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#cabezera.container {
+    text-align: center;
+    border: solid;
+    color: #81983094;
+    background-color: #c6e5b131;
+}
+
+#columna1 {
+    margin-top: 10px;
+    margin-left: -660px;
+    color: #81983094;
+    text-align: right;
+}
+
+#columna2 {
+    margin-top: 80px;
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#caja1 {
+    background: #c6e5b131;
+}
+
+#listgroup {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#up {
+    display: block;
+    padding: 0.3em 0.5em 0.9em 0.5em;
+    position: fixed;
+    bottom: 10px;
+    right: 5%;
+    color: white;
+    background-color: #81983094;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    /*vertical-align: middle;*/
+    z-index: 900;
+}
+
+#up b a {
+    color: green;
+    text-decoration: right;
+    font-size: 20px;
+}

@@ -1,0 +1,225 @@
+    body {
+        background-color: #c6e5b131;
+        margin-right: -20;
+    }
+    
+    #header {
+        background-color: #c6e5b131;
+        color: #81983094;
+        font-weight: bold;
+        font-family: cursive;
+    }
+    
+    #search {
+        margin-top: -180px;
+    }
+    
+    #img {
+        margin-top: -10px;
+        margin-left: -50px;
+        padding: 5px;
+    }
+    
+    h2 {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    h3 {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    h6.title {
+        color: #07351E;
+        font-weight: bold;
+    }
+    
+    #barra {
+        background-color: #C6E5B1;
+        font-weight: bold;
+        font-family: cursive;
+        border: solid;
+        color: #81983094;
+    }
+    
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    article .container-fluid {
+        margin-top: 1px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #carouselExampleDark {
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 70px;
+        padding-left: 15px;
+    }
+    
+    #titulo1 {
+        margin-top: 50px;
+        color: #81983094;
+        font-weight: bold;
+        font-family: cursive;
+    }
+    
+    main .container-fluid3 {
+        margin: 40px;
+        margin-top: 20px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    #main {
+        padding: 50px;
+        background-color: #c6e5b131;
+        border: solid;
+        color: #81983094;
+    }
+    
+    #sub2 {
+        margin-top: -30px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-family: cursive;
+    }
+    
+    footer .container3 {
+        margin: 40px;
+        animation-duration: 3s;
+        animation-name: slidein;
+        padding: 50px;
+        background-color: #c6e5b131;
+        border: solid;
+        color: #81983094;
+        font-weight: bold;
+        font-family: cursive;
+    }
+    
+    #up {
+        display: block;
+        padding: 0.3em 0.5em 0.9em 0.5em;
+        position: fixed;
+        bottom: 10px;
+        right: 5%;
+        color: white;
+        background-color: #81983094;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        /*vertical-align: middle;*/
+        z-index: 900;
+    }
+    
+    #up b a {
+        color: green;
+        text-decoration: right;
+        font-size: 20px;
+    }
+    /*Primer estilo*/
+    /*Main styles*/
+    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+    #text-1.text {
+        fill: none;
+        stroke-width: 3;
+        stroke-linejoin: round;
+        stroke-dasharray: 70 330;
+        stroke-dashoffset: 0;
+        -webkit-animation: stroke 6s infinite linear;
+        animation: stroke 6s infinite linear;
+    }
+    
+    #text-1.text:nth-child(5n+1) {
+        stroke: yellow;
+        -webkit-animation-delay: -1.2s;
+        animation-delay: -1.2s;
+    }
+    
+    #text-1.text:nth-child(5n+2) {
+        stroke: yellow;
+        -webkit-animation-delay: -2.4s;
+        animation-delay: -2.4s;
+    }
+    
+    #text-1.text:nth-child(5n+3) {
+        stroke: yellow;
+        -webkit-animation-delay: -3.6s;
+        animation-delay: -3.6s;
+    }
+    
+    #text-1.text:nth-child(5n+4) {
+        stroke: yellow;
+        -webkit-animation-delay: -4.8s;
+        animation-delay: -4.8s;
+    }
+    
+    #text-1.text:nth-child(5n+5) {
+        stroke: yellow;
+        -webkit-animation-delay: -6s;
+        animation-delay: -6s;
+    }
+    
+    @-webkit-keyframes stroke {
+        100% {
+            stroke-dashoffset: -400;
+        }
+    }
+    
+    @keyframes stroke {
+        100% {
+            stroke-dashoffset: -400;
+        }
+    }
+    
+    Other styles html,
+    body #titu1 {
+        height: 100%;
+    }
+    
+    #titu1 {
+        background: #111;
+        background-size: 0.2em 100%;
+        font: 5em/1 Open Sans, Impact;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    #svg1 {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        background: rgba(0, 0, 0, 0.452);
+    }
+    
+    .row#final {
+        background-color: #111;
+    }
+    
+    #columna1 {
+        margin-top: 10px;
+        margin-left: -660px;
+        color: #81983094;
+        text-align: right;
+    }
+    
+    #columna2 {
+        margin-top: 30px;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: justify;
+    }

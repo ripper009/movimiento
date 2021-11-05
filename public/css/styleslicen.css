@@ -1,0 +1,13 @@
+iframe {
+    width: 100%;
+    height: 100vh;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contentS {
+    background-color: #EBF6E4;
+}
